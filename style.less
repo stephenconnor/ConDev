@@ -1,0 +1,711 @@
+/*---------------------------------------------
+*Program     : 
+*Written By  : Stephen Connor    
+*Date        : 
+*Decription  : 
+*Version     : 
+-----------------------------------------------*/
+
+//variables
+@color0: #fff;
+//@color1: #9DC54B;
+//@colorNavy: #0F2739;
+//@colorLime: #9DC54B;
+@color1: #5bc201;
+@colorNavy: #00334F;
+@colorLime: #5bc201;
+
+.limeRule{
+    border-color: @colorLime !important;
+    border-width: 4px;
+    max-width: 150px !important;
+}
+
+.portfolioImg{
+    border-radius:50%; 
+    height:250px; 
+    width:250px;
+    border: 8px solid @colorLime;
+}
+
+.portfolioImgHov{
+    border: 8px solid @colorNavy;
+}
+
+.cc_container .cc_btn{
+    background-color: @colorLime !important;
+}
+
+@font-face {
+	    font-family: magistralc; 
+	    src: url(../fonts/magistralc-webfont.ttf); 
+	    font-weight: normal; 
+	}
+
+.navbar-default.affix{
+    background-color: @colorLime !important;
+}
+
+nav {
+    
+    .container-fluid{
+            height: 120px;
+    } 
+    
+    img{
+        opacity: 0.95;
+        border-radius: 10px;
+    }
+    
+    a{
+    color: @color0 !important;
+    font-size: 22px !important;
+    }
+    
+    a:focus{
+        color: @colorNavy;
+    }
+    
+    .navbar-right {
+    margin-top: 30px;
+    }
+    
+    .navbar-collapse.in {
+    border-color: #9DC54B !important;
+    background-color: #9DC54B;
+    width: 50%;
+    margin-top: 8%;
+    }
+    
+}
+
+@media only screen 
+    and (max-width : 770px){ 
+        #mainNav {
+            background-color: #9DC54B;
+        }
+        
+        .support_packages .btn{
+            margin-top: 0;
+        }
+        
+}
+
+@media (min-width: 766px) and (max-width: 800px) {
+    .navbar-default.affix .nav > li > a {
+        font-size: 15px !important;
+        margin-right: -10px;
+    }
+    
+    .navbar-default .nav > li>a {
+        font-size: 15px !important;
+        margin-right: -10px;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .navbar-default.affix .nav > li > a {
+        font-size: 16px !important;
+        margin-right: -8px;
+    }
+    
+    .navbar-default .nav > li>a {
+        font-size: 16px !important;
+        margin-right: -8px;
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .navbar-default.affix .nav > li > a {
+        font-size: 20px !important;
+        margin-right: -8px;
+    }
+    
+    .navbar-default .nav > li>a {
+        font-size: 20px !important;
+        margin-right: -8px;
+    }
+
+}
+
+header{
+        .header-content-inner h1{
+    font-family: 'magistralc', Arial, sans-serif;
+	font-weight: 900;
+    font-size: 60px !important;
+    } 
+    
+    .header-content{
+        font-weight: 500;
+        margin-top: 60px;
+        
+        li{
+            list-style-type: none;
+        }
+        
+        hr {
+            .limeRule;
+        }
+        
+        .btn-primary {
+            border-color: @colorNavy;
+            color: @color0;
+            background-color: @colorNavy;
+            text-shadow: 0px 0px !important;
+            margin-top: 20px;
+            
+            :hover {
+                background: @colorLime;
+                }
+            }
+        
+        .btn-primary:after {
+            background: @color0;
+            }
+        }
+    
+}
+
+.bg-primary{
+    color: @colorLime;
+    background-color: @colorNavy !important;
+    
+    .text-faded{
+        color: @colorLime;
+    }
+}
+
+#services {
+    padding-top: 50px;
+    padding-bottom: 50px !important;
+
+    hr{
+        .limeRule;  
+    }
+    
+    h3{
+        color: @colorNavy;
+    }
+    
+    h3:hover, h3:focus {
+        color: @colorLime !important;
+    }
+
+    a:hover, a:focus {
+            color: @colorLime !important;
+    }
+    
+    .service-box img{
+        height: 40%;
+        width: 45%;
+        }
+    
+    .serviceBox_WebDev {
+        margin-top: 38px;
+        }
+    
+    .WebDev img{
+        height: 110px !important;
+    }
+
+    .serviceBox_WebSup  p{
+        /*margin-top: 13%;*/
+        }
+    
+}
+
+.client_portfoliio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    .section-heading{
+        color: @color0;
+        padding-top: 30px;
+    }
+    
+    background-color: @colorNavy;
+    
+    hr{
+        .limeRule;
+    }
+    
+    .btn-primary{
+        background-color: @colorLime;
+        height: 35px !important;
+    }
+    
+    btn:hover {
+        background-color: @colorLime;
+    }
+}
+
+
+#portfolio{
+    padding-bottom: 30px;
+    
+    .nrfDesc h1{
+        margin-left: 10px;
+    }
+    
+    .nrfDesc p{
+        margin-left: 10px;
+    }
+    
+    .adVendDesc h1{
+        margin-left: 10px;
+    }
+
+    .adVendDesc p{
+        margin-left: 10px;
+    }
+
+    .adVend a{
+        background-size: 645px !important;
+    }
+    
+    .jimBikShp h1{
+        margin-left: 10px;
+    }
+
+    .jimBikShp p{
+        margin-left: 10px;
+    }
+
+    .jimBikShp a{
+        background-size: 645px !important;
+    }
+    
+    .panel{
+        border: 0px !important;
+        text-align: center;
+        background-color: @colorNavy;
+        color: @color0;
+    }
+    
+    .panel-heading {
+        display: inline-block;
+        display: inline-block;
+        text-align: center;
+//        background-color: @color0;
+        background-color: @colorNavy;
+    }
+    
+    .panel-heading img{
+        .portfolioImg;
+    }
+
+    .imgTilt img{
+        transition: all 0.5s ease;
+    }
+
+    .imgTilt img:hover {
+        transform: rotate(10deg);
+        -ms-transform: rotate(10deg); /* IE 9 */
+        -webkit-transform: rotate(10deg); /* Safari and Chrome */
+        -o-transform: rotate(10deg); /* Opera */
+        -moz-transform: rotate(10deg); /* Firefox */   
+    }
+    
+    .fa{
+        font-size: 25px; 
+        float: right;
+        margin-top: -50px;
+        margin-right: 15px;
+        color: @color0;
+        background-color: @colorLime;
+        border-radius: 50%;
+        padding: 5px;
+    }
+    
+    .nrfDesc img{
+        width: 250px; 
+        height: 250px;
+    }
+    
+    .adVendDesc img{
+        width: 250px; 
+        height: 250px;
+    }
+    
+    .mcFinanDesc img{
+        width: 250px; 
+        height: 250px;
+    }
+    
+    .jimBikShp img{
+        width: 250px; 
+        height: 250px;
+    }
+        
+}
+
+
+/*--- Portfolio end --*/
+
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px !important;
+    background-color: @color0 !important;
+    color: @colorNavy;
+    
+    .conDevAllNeeds {
+//        color: @color0;
+        color: @colorNavy;
+        
+        hr{
+            .limeRule;
+        }
+        
+        .btn{
+            font-size: 18px;
+            font-weight: 700;
+            background: @colorNavy;
+            color: @color0;    
+        }
+    }
+
+}
+
+
+
+
+/*--- Packages --*/
+
+.packages{
+    color: @color0;
+    background-color: @colorNavy !important;
+    padding-top: 50px;
+    
+    #webDevPack, #webSup, #cmsTrain h2{
+        font-size: 24px !important;
+        margin-bottom: 10px;
+    }
+    
+    .website_packages {
+        margin-top: 10px;
+    }
+
+    hr{
+        .limeRule;
+    }
+    
+    .btn-md {
+        height: 35px;
+    }
+    
+    .collapse_panel_green {
+    color: @color0;
+    background-color: @colorLime !important;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    }
+
+    .website_packages .panel {
+        background-color: transparent;
+    }
+
+    #supportLevel1 {
+        font-size: 16px;
+    }
+
+    .support_packages .panel {
+        background-color: transparent;
+    }
+
+    .supportLvl1Btn {
+        margin-top: 7.5%;
+    }
+    
+    .training_packages .panel {
+        background-color: transparent;
+    }
+    
+    i{
+        color: @colorLime;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    li {
+        font-size: 16px;
+    }
+}
+
+/*--- packages end --*/ 
+
+
+#contact{
+    padding-top: 50px;
+    padding-bottom: 0px;
+    
+    hr{
+        .limeRule;
+    }
+}
+
+
+#socialMedia{
+    padding-top: 50px !important;
+    padding-bottom: 20px !important;
+    
+    hr{
+        .limeRule;
+    }
+    
+    .twitterPanel {
+        max-height: 350px !important;
+    }
+    
+    .fb-page{
+       iframe{
+            border: 15px solid @colorNavy;
+            border-radius: 5px;
+            width: 100% !important;
+            background-color: @colorNavy;
+        }
+        
+        ._2p3a{
+            width: 100% !important;
+        }
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 2000px) {
+    .socialMedia .sect-heading-small{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .socialMedia .sect-heading-big{
+        display: none !important;
+    }
+}
+
+
+/*-------------------- Footer ------------------------*/
+
+footer{
+    .footerTxtBottom {
+        color: #25618d;
+        background-color: @colorNavy !important;
+        padding-top: 10px;
+    }
+    
+    .designBy {
+        background-color: @colorNavy !important;
+        width: 100%;
+        text-align: right;
+    }
+    
+    .addCtcFoot {
+        background-color: @colorNavy !important;
+        color: @color0 !important;
+        padding-top: 15px !important;
+        font-size: 14px !important;
+        width: 100% !important;
+        
+        a{
+        color: @colorLime !important;
+        }
+        
+        a:hover, a:focus {
+        color: @colorLime !important;
+        }
+    }
+
+    .footerCompName h5{
+        color: @color0;
+        font-size: 24px;
+    }
+
+    .social-footer {
+        background-color: @colorNavy;
+        padding-bottom: 5px;
+        padding-top: 10px;
+        
+        .social {
+            float:right;
+        }
+    }
+    
+    .footer-widget-area{
+        background-color: @colorLime; 
+    }
+ 
+    .footerAdd {
+        color: @color0;
+        font-size: 14px;
+    }
+
+    .footerCtcNos {
+        color: @color0;
+        font-size: 14px;
+    }
+    
+    ul.social-network {
+        list-style: none;
+        display: inline;
+        margin-left:0 !important;
+        padding: 0;
+        
+        li {
+        display: inline;
+        margin: 0 5px;
+        }   
+    }
+    
+    .social-network {
+        a{
+            background-color: @colorLime;
+        }
+        
+        a.icoRss:hover {
+            background-color: #F56505;
+        }
+        
+        a.icoFacebook:hover {
+            background-color:#3B5998;
+        }
+        
+        a.icoTwitter:hover {
+            background-color:#33ccff;
+        }
+        
+        a.icoGoogle:hover {
+            background-color:#BD3518;
+        }
+        
+        a.icoVimeo:hover {
+            background-color:#0590B8;
+        }
+        
+        a.icoLinkedin:hover {
+            background-color:#007bb7;
+        }
+        
+        a.icoRss:hover i, a.icoFacebook:hover i, a.icoTwitter:hover i,
+        a.icoGoogle:hover i,  a.icoVimeo:hover i, a.icoLinkedin:hover i {
+            color:@color0;
+        }    
+    }
+    
+    a.socialIcon:hover, .socialHoverClass {
+	   color:#44BCDD;
+    } 
+    
+    .social-circle {
+        li a {
+            display:inline-block;
+            position:relative;
+            margin:0 auto 0 auto;
+            -moz-border-radius:50%;
+            -webkit-border-radius:50%;
+            border-radius:50%;
+            text-align:center;
+            width: 50px;
+            height: 50px;
+            font-size:20px;
+        }
+        
+        li i {
+            margin:0;
+            line-height:50px;
+            text-align: center;
+        }
+        
+        li a:hover i, .triggeredHover {
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -ms--transform: rotate(360deg);
+            transform: rotate(360deg);
+            -webkit-transition: all 0.2s;
+            -moz-transition: all 0.2s;
+            -o-transition: all 0.2s;
+            -ms-transition: all 0.2s;
+            transition: all 0.2s;
+        }
+        
+        i {
+            color: #fff;
+            -webkit-transition: all 0.8s;
+            -moz-transition: all 0.8s;
+            -o-transition: all 0.8s;
+            -ms-transition: all 0.8s;
+            transition: all 0.8s;
+        }
+        
+    }
+    
+}
+    
+
+
+@media (min-width: 0px) and (max-width: 800px){
+    .addCtcFootLg {
+        display: none;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1600px){
+ .addCtcFootSm {
+        display: none;
+        }
+    }
+
+
+/*-------------------- Footer ------------------------*/
+
+/*-------------------- Cookie Policy Page ------------------------*/
+
+.cookiePolicy   .navbar-default {
+    background-color: #9DC54B;
+}
+
+.cookiePolicy .pageTitle{
+   text-align: center;
+}
+
+.cookiePolicy #portfolio{
+   margin-top: 130px;
+}
+
+.textColourPanelBackground {
+/*    background: #F4F3F3;*/
+/*    background: #e8e7e7;*/    
+    background: #0F2739;
+    color: #ffffff;
+    border: 10px #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+/*-------------------- Footer end ------------------------*/
+
+#img12022134569 {
+            position: absolute;
+            left: 139.84375px;
+            width: 1px;
+            top: 45px;
+            height: 1px;
+        }
+
+/* ------------------ media queries ---------------------- */
+
+@media screen and (min-width: 450px) and (max-width: 500px) {
+    .fb-page iframe{
+        width: 440px !important;
+    }   
+    
+    ._2p3a {
+        width: auto !important;
+    }
+}
+
+
+/* ------------------ media queries end ---------------------- */

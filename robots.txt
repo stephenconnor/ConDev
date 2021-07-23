@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /img
+Disallow: /css
+Disallow: /fonts
+
+User-agent: Googlebot
+Allow:
+
+User-agent: Yahoo Slurp
+Allow:
+
+User-agent: MSNbot
+Allow:
+
+User-agent: Bingbot
+Allow:
+
+User-agent: Twitterbot
+Allow:
